@@ -3,7 +3,7 @@
 
     $term  = (isset($_GET['term']))? htmlspecialchars($_GET['term']) :null;
 
-    require_once('Database.php');
+    require_once('database.php');
     $dataBase = new DB;
 
     $sqlSelect = "SELECT * FROM country WHERE country LIKE '%$term%' ORDER BY country";
