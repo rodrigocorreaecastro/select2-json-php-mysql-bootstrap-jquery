@@ -47,21 +47,57 @@
         <p>
 
             <form class="form-horizontal">
-              <div class="control-group">
-                <label class="control-label" for="input_pais">País</label>
-                <div class="controls">
-                  <input type="hidden" class="input-xlarge" id="input_pais" name="input_pais" data-placeholder="Selecione um país" />
-                </div>
-              </div>
-              <div class="control-group">
-                <div class="controls">
-                  <button type="submit" class="btn">Submit</button>
-                </div>
-              </div>
 
-              <span id="log"></span>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="control-label" for="input_pais">País</label>
+                            <div class="controls">
+                                <input type="hidden" class="input-xlarge" id="input_pais" name="input_pais" data-placeholder="Selecione um país" />
+                            </div>
+                        </div>
+                        <span id="log"></span>
+                    </div>
+                </div>
 
-            </form>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="control-label" for="input_state">Estado</label>
+                            <div class="controls">
+                                <select id="input_state" name="input_state" class="input-xlarge">
+                                    <option>Primeiro selecione um país</option>
+                                </select>
+                            </div>
+                        </div><!-- /.form-group -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="control-label" for="input_city">Cidade</label>
+                            <div class="controls">
+                                <select id="input_city" name="input_city" class="input-xlarge">
+                                    <option>Primeiro selecione um estado</option>
+                                </select>
+                            </div>
+                        </div><!-- /.form-group -->
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="form-group">
+                            <label class="control-label">&nbsp;</label>
+                            <div class="controls">
+                                <button type="submit" class="btn">Submit</button>
+                            </div>
+                        </div><!-- /.form-group -->
+                    </div>
+                </div>
+
+          </form>
 
         </p>
       </div>
