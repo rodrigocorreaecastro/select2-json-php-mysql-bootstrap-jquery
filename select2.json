@@ -15,12 +15,12 @@
   "version": "0.2",
   "author": {
     "name": "Rodrigo Corrêa e Castro",
-    "url": "https://github.com/correaecastro/select2-json-php-mysql-bootstrap-jquery/README.md"
+    "url": "https://github.com/wooddewweb/select2-json-php-mysql-bootstrap-jquery/README.md"
   },
   "licenses": [
     {
       "type": "MIT",
-      "url": "https://github.com/correaecastro/select2-json-php-mysql-bootstrap-jquery"
+      "url": "https://github.com/wooddewweb/select2-json-php-mysql-bootstrap-jquery"
     }
   ],
   "dependencies": {

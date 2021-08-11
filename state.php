@@ -9,12 +9,11 @@ $dataBase = new DB;
 $sqlSelect = "SELECT * FROM states WHERE country_id LIKE '%$country%' ORDER BY name";
 $rows = $dataBase->getQuery($sqlSelect);
 
-foreach($rows as $reg) {
-    
-    $data[] = array(
-                    "id"   => $reg['states_id'],
-                    "name" => utf8_encode(addslashes($reg['name']))
-                   );
-}
+foreach($rows as $reg):
+    $data[] = [
+        "id"   => $reg['states_id'],
+        "name" => utf8_encode(addslashes($reg['name']))
+    ];
+endforeach;
 
 echo json_encode($data);

@@ -70,8 +70,6 @@ $(document).ready(function() {
       });
     });
 
-
-
 });
 
 //RESETA O SELECT PARA RECEBER NOVOS VALORES (EXEMPLO: ESTADO -> CIDADE)
