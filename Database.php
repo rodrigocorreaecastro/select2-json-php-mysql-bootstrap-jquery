@@ -9,7 +9,7 @@ class DB
 	private $username = 'root'; // Put your MySQL User name here
 
 	/*** mysql password ***/
-	private $password = '05987'; // Put Your MySQL Password here
+	private $password = ''; // Put Your MySQL Password here
 
 	/*** mysql database ***/
 	private $dbName   = 'laboratorio'; // Put Your MySQL Database name here
